@@ -1,0 +1,62 @@
+ALBUM_1 Twicetagram ALBUM.jpg
+ALBUM_2 Eyes Wide Open ALBUM.jpg
+ALBUM_3 Formula of Love- O + T ALBUM.jpg
+ALBUM_4 BDZ ALBUM.jpg
+ALBUM_5 &Twice ALBUM.jpg
+ALBUM_6 Perfect World ALBUM.jpg
+ALBUM_7 Celebrate ALBUM.jpg
+ALBUM_8 Dive ALBUM.jpg
+ANIVERSµRIO_BG.jpg
+babymonsterGROUP.jpg
+babymonster_poster.jpg
+BOLO.png
+CARROCEL_DTNA.jpg
+CARROCEL_fancy.jpg
+CARROCEL_likey.jpg
+CARROCEL_TT.jpg
+CARROCEL_whatislove.jpg
+Chaeyoung23ABR.png
+clique_magico.gif
+clique_magico2.gif
+favicon_bm.png
+fogos.webm
+html_bg.png
+JEONGYEON1NOV.png
+JIHYO1FEV.png
+JYP Entertainment logo.png
+listar_arquivos.bat
+LISTA_LOGO_ORIGINAL.png
+MINA24MAR.png
+MINI-ALBUM_1 The Story Begins.jpg
+MINI-ALBUM_10 Taste of Love.png
+MINI-ALBUM_11 Betweenÿ1&2.jpg
+MINI-ALBUM_12 Ready to Be.jpg
+MINI-ALBUM_13 With You-th.jpg
+MINI-ALBUM_14M Strategy.jpg
+MINI-ALBUM_2M Page Two.jpg
+MINI-ALBUM_3M Twicecoaster- Lane 1.jpg
+MINI-ALBUM_4 Signal.jpg
+MINI-ALBUM_6 Yes or Yes.jpg
+MINI-ALBUM_7 Fancy You.jpg
+MINI-ALBUM_8 Feel Special.jpg
+MINI-ALBUM_9 More & More.jpeg
+MOMO9NOV.png
+NAYEON22SET.png
+Nomes_dos_Arquivos.txt
+Novo(a) Documento de Texto.txt
+SANA29DEZ.png
+Teen_Vogue_logo.png
+twice head foto.jpg
+twice_PERFIL_BG_Chaeyoung.jpg
+twice_PERFIL_BG_Dahyun.jpg
+twice_PERFIL_BG_Jeongyeon.jpg
+twice_PERFIL_BG_Jihyo.jpg
+twice_PERFIL_BG_Mina.jpg
+twice_PERFIL_BG_Momo.jpg
+twice_PERFIL_BG_Nayeon.jpg
+twice_PERFIL_BG_Sana.jpg
+twice_PERFIL_BG_Tzuyu.jpg
+twice_POSTER.jpg
+TZUYU14JUN.png
+YOUTUBE_LOGO_ORIGINAL.png
+YOUTUBE_LOGO_ROUND.png
