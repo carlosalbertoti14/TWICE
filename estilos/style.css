@@ -7,6 +7,7 @@
     --cor4: #490644;
     --cor5: #0e0d0d;
     --cor6: #eb8ecf;
+    --cor7: rgb(240, 207, 233);
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-strong: Anton, Boldonse, Rowdies, Alfa Slab One, Archivo Black,;
@@ -601,17 +602,18 @@ header > h1 {
 /*********************** configuração do HOME ***********************/
 
 article {
-    background-color: rgba(255, 255, 255, 0.61);
+    background-color:  var(--cor7);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.534);
-    }
+}
 
-
-
-div#artigo{
+    div#artigo{  
     padding: 10px;
-    }
+    background-color: var(--cor7);
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.397);
+}
 
 div#artigo > p{
     line-height: 1.5;
@@ -782,11 +784,7 @@ div#centro{
 
 }
 
-div#artigo{
-    background-color: rgba(255, 255, 255, 0.596);
-    border-radius: 10px;
-    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.397);
-}
+
 
 main {
     background-color: rgba(0, 0, 0, 0.774);
