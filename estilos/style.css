@@ -817,6 +817,11 @@ ul > li > ul.show {
     
 }
 
+ul, ol {
+  list-style: none;
+  padding-left: 0;
+}
+
 .youtube-icon {
     height: 1em; /* Define a altura igual ao tamanho da fonte */
     width: auto; /* Mantém a proporção da imagem */
