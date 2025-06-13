@@ -205,7 +205,7 @@ function criarTrilhaMagicaMobile(clientX, clientY) {
     setTimeout(() => { podeCriarGifMobile = true; }, intervaloMinimoGifMobile);
     // Reabilita a criação de GIFs após o intervalo mínimo.
 
-    const caminhoGif = "midia/clique_magico.gif?rand=" + agora;
+    const caminhoGif = "midia/clique_magico2.gif?rand=" + agora;
     // Define o caminho do GIF, evitando o cache.
 
     const gifElement = document.createElement('img');
