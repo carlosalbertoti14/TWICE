@@ -42,7 +42,7 @@ document.addEventListener('click', function (event) {
         gifElement.style.top = `${cliqueY - offsetY}px`;
         // Define a posição 'top' do GIF para centralizá-lo verticalmente no clique.
 
-        setTimeout(() => gifElement.remove(), 1200); //tempo em que o gif de clique é executado
+        setTimeout(() => gifElement.remove(), 800); //tempo em que o gif de clique é executado
         // Define um temporizador para remover o elemento GIF do DOM após 1200 milissegundos (1.2 segundos).
     };
 
@@ -81,7 +81,7 @@ document.addEventListener('click', () => { podeTocarSomArrastarDesktop = true; }
 
 function criarTrilhaMagicaDesktop(x, y) {
     // Função para criar o efeito visual (GIF) da trilha mágica no desktop.
-    const caminhoGif = "midia/clique_magico.gif?rand=" + Date.now();
+    const caminhoGif = "midia/clique_magico2.gif?rand=" + Date.now();
     // Define o caminho para o arquivo GIF, evitando o cache.
     const gifElement = document.createElement('img');
     // Cria um novo elemento de imagem para o GIF.
