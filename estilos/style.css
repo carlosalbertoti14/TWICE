@@ -330,7 +330,7 @@ transition: opacity 0.5s ease-in-out; /* Adiciona uma transição suave para a o
   section#SECniver {
     display: none;
     background-image: url(../midia/ANIVERSÁRIO_BG.jpg);
-    background-position: center;
+    background-position-x: center;
     background-repeat: no-repeat;
     background-color: black; /* Importante manter o background-color: black */
     width: 100%;
@@ -392,6 +392,7 @@ div#DIVniver img {
     width: 80%;                /* Ocupa 80% da largura da div, se ajusta em telas menores */
     max-width: 600px;          /* Mas nunca passa de 300px */
     padding: 5px 0px 5px 5px;
+    text-align: right; 
    /*  z-index: 200; */
    /*  box-shadow: 5px 5px 15px rgba(22, 22, 22, 0.5); */
 }
