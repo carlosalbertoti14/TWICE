@@ -538,6 +538,36 @@ video {
     background-color: rgba(0, 0, 0, 0.8); /* Fundo mais escuro ao passar o mouse */
 }
 
+/*****************mouse mágico **********************/
+
+/* Seu CSS */
+
+.gif-clique-magico {
+    width: 150px; /* Largura padrão para o GIF de clique */
+    height: 150px; /* Altura padrão para o GIF de clique */
+    /* Exemplo de estilos adicionais */
+    filter: drop-shadow(0 0 8px rgba(233, 1, 1, 0.8)); /* Brilho dourado */
+    transition: opacity 0.2s ease-out; /* Suaviza o desaparecimento */
+}
+
+.gif-trilha-magica {
+    width: 90px; /* Largura padrão para o GIF de trilha no desktop */
+    height: 90px; /* Altura padrão para o GIF de trilha no desktop */
+    /* Exemplo de estilos adicionais */
+    border-radius: 50%; /* Se for uma bolha ou estrela, pode suavizar bordas */
+   /*  filter: hue-rotate(90deg) drop-shadow(0 0 5px rgba(255, 0, 0, 0.7)); /* Mudar cor e adicionar brilho */ */
+}
+
+/* Media query para ajustar o tamanho do GIF de trilha no mobile */
+@media (max-width: 768px) {
+    .gif-trilha-magica {
+        width: 80px; /* Largura para mobile */
+        height: 80px; /* Altura para mobile */
+    }
+}
+
+/***************** fim do mouse mágico **********************/
+
 /**********************FIM CONFIG BOTÃO DO SOM************************************/
 
 img#substitute-image {
