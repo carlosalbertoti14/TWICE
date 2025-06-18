@@ -327,17 +327,21 @@ transition: opacity 0.5s ease-in-out; /* Adiciona uma transição suave para a o
 
 
 
-  section#SECniver {
+section#SECniver {
     display: none;
     background-image: url(../midia/ANIVERSÁRIO_BG.png);
-    background-position-x: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-color: black; /* Importante manter o background-color: black */
     width: 100%;
-    height: 670px;
+    height: 670px; /* Mantém a altura fixa que você mencionou ter funcionado */
     max-width: 800px;
     margin: 0 auto;
     position: relative; /* Importante para posicionar o vídeo absolutamente dentro */
+    
+    /* ***** ALTERAÇÃO CHAVE PARA RESPONSIVIDADE DA IMAGEM DE FUNDO DENTRO DA CAIXA FIXA ***** */
+    background-size: cover; /* A imagem irá cobrir toda a área da seção, cortando se necessário para manter a proporção */
+    /* ************************************************************************************** */
 }
 
 #fogosVideo {
@@ -354,31 +358,26 @@ transition: opacity 0.5s ease-in-out; /* Adiciona uma transição suave para a o
 
 div#felizniver {
     display: none;
-
 }
 
 div#felizniver img{
     display: block;
-  /*   z-index: 1000; */
-   
-
-
+    /* z-index: 1000; */
 }
 
 div#felizniver h4 {
     padding-top: 10px;
     font-size: 2em;
-
 }
 
 div#DIVniver {
     display: flex;
     flex-flow: column;
-    height: 100%;              /* Deixe a altura se ajustar ao conteúdo */
+    height: 100%; /* Deixe a altura se ajustar ao conteúdo do pai (section#SECniver) */
     width: 100%;
     justify-content: center;
     align-items: flex-end;
-    padding-bottom: 0px;      /* Espaço no fundo para não colar a última img */
+    padding-bottom: 0px; /* Espaço no fundo para não colar a última img */
 }
 
 div#DIVniver a {
@@ -389,24 +388,19 @@ div#DIVniver a {
 
 div#DIVniver img {
     display: none;
-    width: 80%;                /* Ocupa 80% da largura da div, se ajusta em telas menores */
-    max-width: 600px;          /* Mas nunca passa de 300px */
+    width: 80%; /* Ocupa 80% da largura da div, se ajusta em telas menores */
+    max-width: 600px; /* Mas nunca passa de 600px (não 300px como no seu comentário original, usei o valor atual) */
     padding: 5px 0px 5px 5px;
-    text-align: right; 
-   /*  z-index: 200; */
-   /*  box-shadow: 5px 5px 15px rgba(22, 22, 22, 0.5); */
+    /* z-index: 200; */
+    /* box-shadow: 5px 5px 15px rgba(22, 22, 22, 0.5); */
 }
 
-
 /* Aumenta espaço apenas na última imagem */
-
-
-
 div#DIVniver img:last-child {
-    
     margin-bottom: 0;
 }
 
+/* ... seu CSS posterior ... */
 
 
 /****************************FIM DA CONFIG ANIVERSARIO*************************/
